@@ -1,4 +1,5 @@
 title: "%test-kontext-workflow%"
+description: "Upload a local image file and edit it with Flux Pro Kontext AI"
 nodes:
   - node_id: submit#1
     task: self::submit_kontext_request
@@ -70,6 +71,7 @@ nodes:
     subflow: downloader::file-downloader
 inputs_def:
   - handle: file
+    description: "Local image file to edit"
     json_schema:
       type: string
       ui:widget: file
@@ -77,6 +79,7 @@ inputs_def:
     nullable: false
     executor_name: nodejs
   - handle: prompt
+    description: "Editing instructions for the AI model"
     json_schema:
       type: string
       ui:widget: text
@@ -84,6 +87,7 @@ inputs_def:
     nullable: false
     executor_name: python
   - handle: saved_path
+    description: "Path to save the edited image (optional)"
     json_schema:
       type: string
       ui:widget: save

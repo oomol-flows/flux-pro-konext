@@ -3,7 +3,6 @@
   "12": "下载文件 #1",
   "display-name": "Flux Pro Kontext",
   "description": "使用 Flux Pro Kontext API 的 AI 驱动图像转换，实现高级视觉内容处理与生成",
-  "test-kontext-workflow": "File Kontext Pro Edit",
   "poll-kontext-result": "投票 上下文 结果",
   "poll-the-fal-flux-pro-kontext-api-for-the-result-of-a-submitted": "轮询 fal-flux-pro-kontext API 以获取已提交请求的结果",
   "the-request-id-to-poll-for-results": "用于轮询结果的请求 ID",
@@ -24,5 +23,7 @@
   "edit-an-online-image-from-url-using-flux-pro-kontext-ai": "使用 Flux Pro Kontext AI 从 URL 编辑在线图片",
   "url-of-the-image-to-edit": "要编辑的图片 URL",
   "editing-instructions-for-the-ai-model2": "AI 模型的编辑指令",
-  "url-of-the-edited-image": "已编辑图片的 URL"
+  "url-of-the-edited-image": "已编辑图片的 URL",
+  "file-kontext-edit": "Kontext Pro 图片文件编辑",
+  "url-kontext-edit": "Kontext Pro 图片网址编辑"
 }

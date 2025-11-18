@@ -3,7 +3,6 @@
   "12": "Download file #1",
   "display-name": "Flux Pro Kontext",
   "description": "AI-powered image transformation using Flux Pro Kontext API for advanced visual content processing and generation",
-  "test-kontext-workflow": "Test Kontext Workflow",
   "poll-kontext-result": "Poll Kontext Result",
   "poll-the-fal-flux-pro-kontext-api-for-the-result-of-a-submitted": "Poll the fal-flux-pro-kontext API for the result of a submitted request",
   "the-request-id-to-poll-for-results": "The request ID to poll for results",
@@ -24,5 +23,7 @@
   "edit-an-online-image-from-url-using-flux-pro-kontext-ai": "Edit an online image from URL using Flux Pro Kontext AI",
   "url-of-the-image-to-edit": "URL of the image to edit",
   "editing-instructions-for-the-ai-model2": "Editing instructions for the AI model",
-  "url-of-the-edited-image": "URL of the edited image"
+  "url-of-the-edited-image": "URL of the edited image",
+  "file-kontext-edit": "Kontext Pro Image File Edit",
+  "url-kontext-edit": "Kontext Pro Image Url Edita"
 }

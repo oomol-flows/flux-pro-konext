@@ -1,4 +1,4 @@
-title: "%test-kontext-workflow%"
+title: "%file-kontext-edit%"
 description: "%upload-a-local-image-file-and-edit-it-with-flux-pro-kontext-ai%"
 nodes:
   - node_id: submit#1

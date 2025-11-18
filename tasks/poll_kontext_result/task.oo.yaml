@@ -1,31 +1,32 @@
 inputs_def:
   - handle: request_id
+    description: "%the-request-id-to-poll-for-results%"
     json_schema:
       type: string
-    description: "The request ID to poll for results"
     nullable: false
   - group: Optional
     collapsed: true
   - handle: max_attempts
+    description: "%maximum-number-of-polling-attempts-default-60%"
     json_schema:
       type: number
-    description: "Maximum number of polling attempts (default: 60)"
-    nullable: true
     value:
+    nullable: true
   - handle: poll_interval
+    description: "%seconds-to-wait-between-polling-attempts-default-2%"
     json_schema:
       type: number
-    description: "Seconds to wait between polling attempts (default: 2)"
-    nullable: true
     value:
 
+
+    nullable: true
 outputs_def:
   - handle: image_url
-    description: "The URL of the processed image"
+    description: "%the-url-of-the-processed-image%"
     json_schema:
       type: string
   - handle: status
-    description: "The final status of the request"
+    description: "%the-final-status-of-the-request%"
     json_schema:
       type: string
 
@@ -35,6 +36,6 @@ executor:
     entry: __init__.py
     spawn: false
 
-title: "Poll Kontext Result"
+title: "%poll-kontext-result%"
 icon: ":carbon:renew:"
-description: "Poll the fal-flux-pro-kontext API for the result of a submitted request"
+description: "%poll-the-fal-flux-pro-kontext-api-for-the-result-of-a-submitted%"

@@ -1,0 +1,18 @@
+{
+  "1": "上传文件到云端 #1",
+  "display-name": "Flux Pro Kontext\n\n弗拉克斯 Pro Kontext",
+  "description": "使用 Flux Pro Kontext API 的 AI 驱动图像转换，实现高级视觉内容处理与生成",
+  "test-kontext-workflow": "测试上下文工作流",
+  "poll-kontext-result": "投票 上下文 结果",
+  "poll-the-fal-flux-pro-kontext-api-for-the-result-of-a-submitted": "轮询 fal-flux-pro-kontext API 以获取已提交请求的结果",
+  "the-request-id-to-poll-for-results": "用于轮询结果的请求 ID",
+  "maximum-number-of-polling-attempts-default-60": "最大轮询尝试次数（默认值：60）",
+  "seconds-to-wait-between-polling-attempts-default-2": "轮询尝试之间等待的秒数（默认值：2）",
+  "the-url-of-the-processed-image": "已处理图片的 URL",
+  "the-final-status-of-the-request": "请求的最终状态",
+  "submit-kontext-request": "提交 Kontext 请求",
+  "submit-an-image-processing-request-to-the-fal-flux-pro-kontext-a": "向 fal-flux-pro-kontext API 提交一个图像处理请求，并接收一个请求 ID",
+  "url-of-the-image-to-process": "要处理的图片 URL",
+  "the-prompt-describing-the-desired-transformation": "描述所需转变的提示",
+  "the-request-id-returned-from-the-api-for-polling": "用于轮询的 API 返回的请求 ID"
+}

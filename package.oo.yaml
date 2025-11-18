@@ -7,8 +7,7 @@ icon: ./icon.png
 dependencies:
   upload-to-cloud: 0.0.5
 name: flux_pro_kontext
-displayName: Flux Pro Kontext
-description: AI-powered image transformation using Flux Pro Kontext API for
-  advanced visual content processing and generation
+displayName: "%display-name%"
+description: "%description%"
 repository: https://github.com/oomol-flows/flux-konext.git
 releaseNotes: init

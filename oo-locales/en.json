@@ -1,0 +1,18 @@
+{
+  "1": "Upload file to the cloud #1",
+  "display-name": "Flux Pro Kontext",
+  "description": "AI-powered image transformation using Flux Pro Kontext API for advanced visual content processing and generation",
+  "test-kontext-workflow": "Test Kontext Workflow",
+  "poll-kontext-result": "Poll Kontext Result",
+  "poll-the-fal-flux-pro-kontext-api-for-the-result-of-a-submitted": "Poll the fal-flux-pro-kontext API for the result of a submitted request",
+  "the-request-id-to-poll-for-results": "The request ID to poll for results",
+  "maximum-number-of-polling-attempts-default-60": "Maximum number of polling attempts (default: 60)",
+  "seconds-to-wait-between-polling-attempts-default-2": "Seconds to wait between polling attempts (default: 2)",
+  "the-url-of-the-processed-image": "The URL of the processed image",
+  "the-final-status-of-the-request": "The final status of the request",
+  "submit-kontext-request": "Submit Kontext Request",
+  "submit-an-image-processing-request-to-the-fal-flux-pro-kontext-a": "Submit an image processing request to the fal-flux-pro-kontext API and receive a request ID",
+  "url-of-the-image-to-process": "URL of the image to process",
+  "the-prompt-describing-the-desired-transformation": "The prompt describing the desired transformation",
+  "the-request-id-returned-from-the-api-for-polling": "The request ID returned from the API for polling"
+}

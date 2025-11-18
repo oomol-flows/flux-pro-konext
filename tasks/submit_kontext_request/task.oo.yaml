@@ -1,0 +1,29 @@
+inputs_def:
+  - handle: image_url
+    json_schema:
+      type: string
+    description: "URL of the image to process"
+    nullable: false
+  - handle: prompt
+    json_schema:
+      type: string
+      ui:widget: text
+    description: "The prompt describing the desired transformation"
+    nullable: false
+
+outputs_def:
+  - handle: request_id
+    description: "The request ID returned from the API for polling"
+    json_schema:
+      type: string
+
+executor:
+  name: python
+  options:
+    entry: __init__.py
+    spawn: false
+
+title: "Submit Kontext Request"
+icon: ":carbon:send-alt:"
+description: "Submit an image processing request to the fal-flux-pro-kontext API
+  and receive a request ID"

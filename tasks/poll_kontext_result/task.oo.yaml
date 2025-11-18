@@ -1,0 +1,40 @@
+inputs_def:
+  - handle: request_id
+    json_schema:
+      type: string
+    description: "The request ID to poll for results"
+    nullable: false
+  - group: Optional
+    collapsed: true
+  - handle: max_attempts
+    json_schema:
+      type: number
+    description: "Maximum number of polling attempts (default: 60)"
+    nullable: true
+    value:
+  - handle: poll_interval
+    json_schema:
+      type: number
+    description: "Seconds to wait between polling attempts (default: 2)"
+    nullable: true
+    value:
+
+outputs_def:
+  - handle: image_url
+    description: "The URL of the processed image"
+    json_schema:
+      type: string
+  - handle: status
+    description: "The final status of the request"
+    json_schema:
+      type: string
+
+executor:
+  name: python
+  options:
+    entry: __init__.py
+    spawn: false
+
+title: "Poll Kontext Result"
+icon: ":carbon:renew:"
+description: "Poll the fal-flux-pro-kontext API for the result of a submitted request"

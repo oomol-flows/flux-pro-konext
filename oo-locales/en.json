@@ -1,5 +1,6 @@
 {
   "1": "Upload file to the cloud #1",
+  "12": "Download file #1",
   "display-name": "Flux Pro Kontext",
   "description": "AI-powered image transformation using Flux Pro Kontext API for advanced visual content processing and generation",
   "test-kontext-workflow": "Test Kontext Workflow",
@@ -14,5 +15,14 @@
   "submit-an-image-processing-request-to-the-fal-flux-pro-kontext-a": "Submit an image processing request to the fal-flux-pro-kontext API and receive a request ID",
   "url-of-the-image-to-process": "URL of the image to process",
   "the-prompt-describing-the-desired-transformation": "The prompt describing the desired transformation",
-  "the-request-id-returned-from-the-api-for-polling": "The request ID returned from the API for polling"
+  "the-request-id-returned-from-the-api-for-polling": "The request ID returned from the API for polling",
+  "upload-a-local-image-file-and-edit-it-with-flux-pro-kontext-ai": "Upload a local image file and edit it with Flux Pro Kontext AI",
+  "local-image-file-to-edit": "Local image file to edit",
+  "editing-instructions-for-the-ai-model": "Editing instructions for the AI model",
+  "path-to-save-the-edited-image-optional": "Path to save the edited image (optional)",
+  "path-of-the-successfully-downloaded-file": "Path of the successfully downloaded file",
+  "edit-an-online-image-from-url-using-flux-pro-kontext-ai": "Edit an online image from URL using Flux Pro Kontext AI",
+  "url-of-the-image-to-edit": "URL of the image to edit",
+  "editing-instructions-for-the-ai-model2": "Editing instructions for the AI model",
+  "url-of-the-edited-image": "URL of the edited image"
 }

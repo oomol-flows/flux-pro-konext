@@ -1,6 +1,7 @@
 {
   "1": "上传文件到云端 #1",
-  "display-name": "Flux Pro Kontext\n\n弗拉克斯 Pro Kontext",
+  "12": "下载文件 #1",
+  "display-name": "Flux Pro Kontext",
   "description": "使用 Flux Pro Kontext API 的 AI 驱动图像转换，实现高级视觉内容处理与生成",
   "test-kontext-workflow": "File Kontext Pro Edit",
   "poll-kontext-result": "投票 上下文 结果",
@@ -14,5 +15,14 @@
   "submit-an-image-processing-request-to-the-fal-flux-pro-kontext-a": "向 fal-flux-pro-kontext API 提交一个图像处理请求，并接收一个请求 ID",
   "url-of-the-image-to-process": "要处理的图片 URL",
   "the-prompt-describing-the-desired-transformation": "描述所需转变的提示",
-  "the-request-id-returned-from-the-api-for-polling": "用于轮询的 API 返回的请求 ID"
+  "the-request-id-returned-from-the-api-for-polling": "用于轮询的 API 返回的请求 ID",
+  "upload-a-local-image-file-and-edit-it-with-flux-pro-kontext-ai": "上传本地图片文件，并使用 Flux Pro Kontext AI 进行编辑",
+  "local-image-file-to-edit": "本地图片文件进行编辑",
+  "editing-instructions-for-the-ai-model": "针对 AI 模型的编辑指令",
+  "path-to-save-the-edited-image-optional": "保存已编辑图片的路径（可选）",
+  "path-of-the-successfully-downloaded-file": "成功下载文件的路径",
+  "edit-an-online-image-from-url-using-flux-pro-kontext-ai": "使用 Flux Pro Kontext AI 从 URL 编辑在线图片",
+  "url-of-the-image-to-edit": "要编辑的图片 URL",
+  "editing-instructions-for-the-ai-model2": "AI 模型的编辑指令",
+  "url-of-the-edited-image": "已编辑图片的 URL"
 }

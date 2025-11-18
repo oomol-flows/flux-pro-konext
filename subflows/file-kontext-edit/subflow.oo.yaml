@@ -1,5 +1,5 @@
 title: "%test-kontext-workflow%"
-description: "Upload a local image file and edit it with Flux Pro Kontext AI"
+description: "%upload-a-local-image-file-and-edit-it-with-flux-pro-kontext-ai%"
 nodes:
   - node_id: submit#1
     task: self::submit_kontext_request
@@ -33,7 +33,7 @@ nodes:
           - input_handle: file
     task: upload-to-cloud::upload-to-cloud
   - node_id: file-downloader#1
-    title: "下载文件 #1"
+    title: "%12%"
     inputs_from:
       - handle: url
         from_node:
@@ -71,7 +71,7 @@ nodes:
     subflow: downloader::file-downloader
 inputs_def:
   - handle: file
-    description: "Local image file to edit"
+    description: "%local-image-file-to-edit%"
     json_schema:
       type: string
       ui:widget: file
@@ -79,7 +79,7 @@ inputs_def:
     nullable: false
     executor_name: nodejs
   - handle: prompt
-    description: "Editing instructions for the AI model"
+    description: "%editing-instructions-for-the-ai-model%"
     json_schema:
       type: string
       ui:widget: text
@@ -87,12 +87,12 @@ inputs_def:
     nullable: false
     executor_name: python
   - handle: saved_path
-    description: "Path to save the edited image (optional)"
+    description: "%path-to-save-the-edited-image-optional%"
     json_schema:
       type: string
       ui:widget: save
-    nullable: true
     value:
+    nullable: true
     executor_name: python
 outputs_def:
   - handle: saved_path
@@ -100,7 +100,7 @@ outputs_def:
       type: string
       ui:widget: save
     nullable: false
-    description: Path of the successfully downloaded file
+    description: "%path-of-the-successfully-downloaded-file%"
     executor_name: python
 outputs_from:
   - handle: saved_path

@@ -1,5 +1,5 @@
 title: "%test-kontext-workflow%"
-description: "Edit an online image from URL using Flux Pro Kontext AI"
+description: "%edit-an-online-image-from-url-using-flux-pro-kontext-ai%"
 nodes:
   - node_id: submit#1
     task: self::submit_kontext_request
@@ -27,13 +27,13 @@ nodes:
         value: 2
 inputs_def:
   - handle: image_url
-    description: "URL of the image to edit"
+    description: "%url-of-the-image-to-edit%"
     json_schema:
       type: string
     nullable: false
     executor_name: python
   - handle: prompt
-    description: "Editing instructions for the AI model"
+    description: "%editing-instructions-for-the-ai-model2%"
     json_schema:
       type: string
       ui:widget: text
@@ -42,7 +42,7 @@ inputs_def:
     executor_name: python
 outputs_def:
   - handle: image_url
-    description: "URL of the edited image"
+    description: "%url-of-the-edited-image%"
     json_schema:
       type: string
     nullable: false

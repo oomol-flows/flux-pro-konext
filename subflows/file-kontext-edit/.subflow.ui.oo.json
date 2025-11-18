@@ -1,0 +1,67 @@
+{
+  "nodes": {
+    "submit#1": {
+      "rfNode": {
+        "position": {
+          "x": 972,
+          "y": 62.5
+        }
+      }
+    },
+    "poll#1": {
+      "rfNode": {
+        "position": {
+          "x": 1458,
+          "y": 22
+        }
+      }
+    },
+    "upload-to-cloud#1": {
+      "rfNode": {
+        "position": {
+          "x": 486,
+          "y": 0
+        }
+      }
+    },
+    "file-downloader#1": {
+      "rfNode": {
+        "position": {
+          "x": 1944,
+          "y": 125
+        }
+      },
+      "sections": {
+        "inputs": {
+          "groupCollapsed": {
+            "Strategy": true,
+            "Connection": true
+          }
+        },
+        "outputs": {
+          "groupCollapsed": {
+            "Events": true
+          }
+        }
+      }
+    }
+  },
+  "pseudoNodes": {
+    "input": {
+      "rfNode": {
+        "position": {
+          "x": 0,
+          "y": 200.5
+        }
+      }
+    },
+    "output": {
+      "rfNode": {
+        "position": {
+          "x": 2430,
+          "y": 237.5
+        }
+      }
+    }
+  }
+}

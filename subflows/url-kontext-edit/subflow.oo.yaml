@@ -1,0 +1,50 @@
+title: "%test-kontext-workflow%"
+nodes:
+  - node_id: submit#1
+    task: self::submit_kontext_request
+    inputs_from:
+      - handle: image_url
+        from_flow:
+          - input_handle: image_url
+        from_node:
+          []
+      - handle: prompt
+        value: "A beautiful landscape"
+        from_flow:
+          - input_handle: prompt
+
+  - node_id: poll#1
+    task: self::poll_kontext_result
+    inputs_from:
+      - handle: request_id
+        from_node:
+          - node_id: submit#1
+            output_handle: request_id
+      - handle: max_attempts
+        value: 30
+      - handle: poll_interval
+        value: 2
+inputs_def:
+  - handle: image_url
+    json_schema:
+      type: string
+    nullable: false
+    executor_name: python
+  - handle: prompt
+    json_schema:
+      type: string
+      ui:widget: text
+    value: A beautiful landscape
+    nullable: false
+    executor_name: python
+outputs_def:
+  - handle: image_url
+    json_schema:
+      type: string
+    nullable: false
+    executor_name: python
+outputs_from:
+  - handle: image_url
+    from_node:
+      - node_id: poll#1
+        output_handle: image_url

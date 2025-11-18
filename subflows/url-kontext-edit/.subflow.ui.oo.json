@@ -4,7 +4,7 @@
       "rfNode": {
         "position": {
           "x": 486,
-          "y": 26
+          "y": 40.5
         }
       }
     },
@@ -15,12 +15,22 @@
           "y": 0
         }
       }
-    },
-    "upload-to-cloud#1": {
+    }
+  },
+  "pseudoNodes": {
+    "input": {
       "rfNode": {
         "position": {
           "x": 0,
-          "y": 54
+          "y": 99
+        }
+      }
+    },
+    "output": {
+      "rfNode": {
+        "position": {
+          "x": 1458,
+          "y": 112.5
         }
       }
     }

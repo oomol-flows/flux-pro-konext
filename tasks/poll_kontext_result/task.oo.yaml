@@ -18,7 +18,6 @@ inputs_def:
       type: number
     value:
 
-
     nullable: true
 outputs_def:
   - handle: image_url
@@ -39,3 +38,4 @@ executor:
 title: "%poll-kontext-result%"
 icon: ":carbon:renew:"
 description: "%poll-the-fal-flux-pro-kontext-api-for-the-result-of-a-submitted%"
+private: true

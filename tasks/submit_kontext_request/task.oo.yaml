@@ -26,3 +26,4 @@ executor:
 title: "%submit-kontext-request%"
 icon: ":carbon:send-alt:"
 description: "%submit-an-image-processing-request-to-the-fal-flux-pro-kontext-a%"
+private: true
